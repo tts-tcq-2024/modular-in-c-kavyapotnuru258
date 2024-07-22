@@ -1,7 +1,6 @@
-// color_pair_manual.c
 #include <stdio.h>
-#include "color_pair.h"
-#include "color_pair_utils.h"
+#include "ColorPair.h"
+#include "ColorPairUtils.h"
 
 void printColorCodingReferenceManual() {
     char buffer[16];
