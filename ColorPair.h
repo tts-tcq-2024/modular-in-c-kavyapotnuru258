@@ -1,4 +1,3 @@
-// color_pair.h
 #ifndef COLOR_PAIR_H
 #define COLOR_PAIR_H
 
