@@ -1,18 +1,18 @@
-// ColorPair.h
+// color_pair.h
 #ifndef COLOR_PAIR_H
 #define COLOR_PAIR_H
 
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+enum majorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum minorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-extern const char* MajorColorNames[];
-extern const char* MinorColorNames[];
+extern const char* majorColorNames[];
+extern const char* minorColorNames[];
 extern int numberOfMajorColors;
 extern int numberOfMinorColors;
 
 typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
+    enum majorColor major;
+    enum minorColor minor;
 } ColorPair;
 
 #endif // COLOR_PAIR_H
