@@ -1,14 +1,14 @@
-// NumberToColorPair.c
+// number_to_color_pair.c
 #include <stdio.h>
-#include "ColorPair.h"
-#include "ColorPairUtils.h"
+#include "color_pair.h"
+#include "color_pair_utils.h"
 
-ColorPair GetColorFromPairNumber(int pairNumber) {
+ColorPair getColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
-    colorPair.majorColor = 
-        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
-    colorPair.minorColor =
-        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+    colorPair.major = 
+        (enum majorColor)(zeroBasedPairNumber / numberOfMinorColors);
+    colorPair.minor =
+        (enum minorColor)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
 }
