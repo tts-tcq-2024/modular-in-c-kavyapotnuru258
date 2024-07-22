@@ -1,8 +1,7 @@
-// color_pair_test.c
 #include <stdio.h>
 #include <assert.h>
-#include "color_pair.h"
-#include "color_pair_utils.h"
+#include "ColorPair.h"
+#include "ColorPairUtils.h"
 
 void testNumberToPair(int pairNumber, enum majorColor expectedMajor, enum minorColor expectedMinor) {
     ColorPair colorPair = getColorFromPairNumber(pairNumber);
