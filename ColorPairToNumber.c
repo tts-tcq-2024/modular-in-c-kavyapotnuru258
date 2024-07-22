@@ -1,7 +1,6 @@
-// color_pair_to_number.c
 #include <stdio.h>
-#include "color_pair.h"
-#include "color_pair_utils.h"
+#include "ColorPair.h"
+#include "ColorPairUtils.h"
 
 const char* majorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
