@@ -1,7 +1,6 @@
-// number_to_color_pair.c
 #include <stdio.h>
-#include "color_pair.h"
-#include "color_pair_utils.h"
+#include "ColorPair.h"
+#include "ColorPairUtils.h"
 
 ColorPair getColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
